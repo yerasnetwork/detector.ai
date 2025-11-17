@@ -59,7 +59,7 @@ This project was developed during a 24-hour hackathon. The solution can accept `
 
 The trained model **`best.pt`** (22 MB) is not stored in Git due to its size (it's in the `.gitignore`).
 
-* **[Link to Model (best.pt)]()** *(<-- **IMPORTANT:** Upload your `best.pt` to Google Drive or another host and paste the public download link here)*
+* **[https://drive.google.com/file/d/1D9H4XzBpYN-5uMPSQhEAhpmAzGLRZk1t/view?usp=drive_link (best.pt)]()** *(<-- **IMPORTANT:** Upload your `best.pt` 
 
 **Place the downloaded `best.pt` file in the project root** (next to `main.py`).
 
