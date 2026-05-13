@@ -1,4 +1,4 @@
-# 🔎 Digital Inspector
+#  Digital Inspector
 
 **An AI service (YOLOv8 + FastAPI) for the automatic detection of signatures, stamps, and QR codes on documents.**
 
@@ -14,7 +14,7 @@ This project was developed during a 24-hour hackathon. The solution can accept `
 
 ---
 
-## 🏆 Key Features
+##  Key Features
 
 * **Multi-Class Detection:** The fine-tuned YOLOv8s model confidently recognizes **3** key classes: `Signature`, `stamp`, and `qr-code`.
 * **Flexible Input:** The API accepts not only images (`.png`, `.jpg`) but also **multi-page `.pdf` files**.
@@ -23,7 +23,7 @@ This project was developed during a 24-hour hackathon. The solution can accept `
 
 ---
 
-## 🛠️ Tech Stack (Architecture)
+##  Tech Stack (Architecture)
 
 * **Model:** **YOLOv8s** (fine-tuned).
 * **Training:** **Google Colab** (on a T4 GPU) using a "golden" public dataset from Roboflow (9,000+ images) after discovering the organizer's data was corrupt.
@@ -34,7 +34,7 @@ This project was developed during a 24-hour hackathon. The solution can accept `
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Preparation
 
@@ -80,7 +80,7 @@ You can now upload PDF files (e.g., from the `test` folder) and see the live res
 
 ---
 
-## 🗺️ Vision & Scalability (Answering Judging Criterion #2)
+## Vision & Scalability (Answering Judging Criterion #2)
 
 **The Question:** "Can it handle processing 1,000 documents?"
 
